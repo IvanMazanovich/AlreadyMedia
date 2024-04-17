@@ -1,0 +1,20 @@
+.new-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-slider{
+    width: 100%;
+}
+
+.swiper-slide{
+    width: 100%;
+    max-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide__image{
+    object-fit: contain;
+}
